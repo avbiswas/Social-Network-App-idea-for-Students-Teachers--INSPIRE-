@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Inspire2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="addcomment">+ADD COMMENT</string>
+    <string name="submit">SUBMIT</string>
+    <string name="entercomment">Type here. . .</string>
+    <string name="comment">COMMENTS</string>
+    <string name="upvote">Upvote</string>
+     
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+	<string-array name="Menu">
+        <item>Edit My Profile</item>
+        <item>Compose</item>
+        <item>Timeline</item>
+        <item>Read</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+</resources>

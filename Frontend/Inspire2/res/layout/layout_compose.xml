@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout 
+    android:id="@+id/linear_UI"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+	<LinearLayout
+	    android:id="@+id/linearText"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+	    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        
+        android:gravity="center"
+        android:hint="ENTER TITLE HERE"
+      
+        android:ems="10" >
+	
+        <requestFocus />
+    </EditText>
+	</LinearLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/linearButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+    
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="71dp"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:text="+\nimages" />
+	    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="71dp"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:text="+\ntext" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        
+        android:background="@android:color/transparent"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="SCRUTINIZE" />
+
+</LinearLayout>
+</ScrollView>

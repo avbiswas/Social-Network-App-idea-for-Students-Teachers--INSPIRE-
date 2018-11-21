@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+    
+ <LinearLayout android:id="@+id/form"
+     		android:orientation="vertical"
+     		android:layout_width="wrap_content"
+     		android:layout_height="wrap_content"
+     		android:gravity="center">
+
+<TableLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    
+	<TableRow android:id="@+id/tableRow0"
+	     android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+		    android:gravity="center"
+        >
+
+		<ImageView
+		    android:id="@+id/imageView1"
+		    android:layout_width="80dp"
+		    android:layout_height="80dp"
+		    android:src="@drawable/unknown" />
+	    
+	</TableRow>
+	<TableRow android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+
+		<Space
+		    android:layout_width="wrap_content"
+		    android:layout_height="30dp" />
+	    
+	</TableRow>
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="NAME"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:ems="10" >
+
+            <requestFocus android:layout_width="match_parent" />
+
+        </EditText>
+
+    </TableRow>
+	 <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="wrap_content"
+            android:text="EMAIL"
+            android:textStyle="bold"
+            
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+    </TableRow>
+	  <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewSemester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                        android:textStyle="bold"
+            
+            android:text="SEMESTER "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextSemester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            
+            android:inputType="number" />
+
+    </TableRow>
+
+	  <TableRow
+	      android:id="@+id/tableRow4"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content" >
+
+	      <TextView
+	          android:id="@+id/textViewHobbies"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	                     android:textStyle="bold"
+	         
+	          android:text="HOBBIES"
+	          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	      <EditText
+	          android:id="@+id/editTextHobbies"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:ems="10"
+	          android:inputType="textMultiLine" />
+
+	  </TableRow>
+	     <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+	        
+	             <TextView
+	                 android:id="@+id/textViewAddress"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                             android:textStyle="bold"
+	                 
+	                 android:text="ADDRESS"
+	                 android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        
+	         <EditText
+	             android:id="@+id/editTextAddress"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:ems="10"
+	             android:inputType="textPostalAddress" />
+
+    </TableRow>
+		     <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+	        
+	             <TextView
+	                 android:id="@+id/textViewPhone"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                             android:textStyle="bold"
+	                 
+	                 android:text="CELL PHONE"
+	                 android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        
+	         <EditText
+	             android:id="@+id/editTextPhone"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:ems="10"
+	             android:inputType="phone" />
+
+    </TableRow>
+	
+</TableLayout>
+<Space
+		    android:layout_width="wrap_content"
+		    android:layout_height="30dp" />
+	    
+<LinearLayout
+    android:id="@+id/password"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:gravity="center"
+        android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/buttonChangePass"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="10dp"
+        android:background="#f80"
+        android:text="Change Password" />
+
+    </LinearLayout>
+	
+	<Space
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp" />
+
+	<Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:background="@android:color/transparent"
+        android:textColor="#900"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="UPDATE" />
+   
+
+</LinearLayout>
+</ScrollView>
